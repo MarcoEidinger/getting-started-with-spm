@@ -1,5 +1,5 @@
 import XCTest
-@testable import ExamplePackage
+@testable import ExamplePackageTarget
 
 final class ExamplePackageTests: XCTestCase {
     func testExample() throws {
