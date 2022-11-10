@@ -19,6 +19,7 @@
 		1904F413291C873400F57309 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1904F415291C873600F57309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1904F418291C873600F57309 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1904F41F291C876800F57309 /* ExamplePackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ExamplePackage; path = ../ExamplePackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		1904F405291C873400F57309 = {
 			isa = PBXGroup;
 			children = (
+				1904F41F291C876800F57309 /* ExamplePackage */,
 				1904F410291C873400F57309 /* ExampleApp */,
 				1904F40F291C873400F57309 /* Products */,
 			);
