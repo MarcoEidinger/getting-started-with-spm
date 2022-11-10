@@ -11,6 +11,7 @@
 		1904F414291C873400F57309 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904F413291C873400F57309 /* ContentView.swift */; };
 		1904F416291C873600F57309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1904F415291C873600F57309 /* Assets.xcassets */; };
 		1904F419291C873600F57309 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1904F418291C873600F57309 /* Preview Assets.xcassets */; };
+		1904F426291C87C200F57309 /* ExamplePackageLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 1904F425291C87C200F57309 /* ExamplePackageLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1904F426291C87C200F57309 /* ExamplePackageLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +41,7 @@
 				1904F41F291C876800F57309 /* ExamplePackage */,
 				1904F410291C873400F57309 /* ExampleApp */,
 				1904F40F291C873400F57309 /* Products */,
+				1904F424291C87C200F57309 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +72,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		1904F424291C87C200F57309 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +95,9 @@
 			dependencies = (
 			);
 			name = ExampleApp;
+			packageProductDependencies = (
+				1904F425291C87C200F57309 /* ExamplePackageLibrary */,
+			);
 			productName = ExampleApp;
 			productReference = 1904F40E291C873400F57309 /* ExampleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -341,6 +354,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1904F425291C87C200F57309 /* ExamplePackageLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ExamplePackageLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1904F406291C873400F57309 /* Project object */;
 }
