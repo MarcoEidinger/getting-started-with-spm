@@ -7,9 +7,9 @@ public struct ExamplePackage {
     }
 }
 
-@available(iOS 13.0, *)
-struct ReusableView: View {
-    var body: some View {
+public struct ReusableView: View {
+    public init() {}
+    public var body: some View {
         Text(ExamplePackage().text)
     }
 }
