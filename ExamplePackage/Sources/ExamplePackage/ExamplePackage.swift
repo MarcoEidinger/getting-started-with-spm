@@ -11,7 +11,7 @@ public struct ExamplePackage {
 public struct ReusableView: View {
     public init() {}
     public var body: some View {
-        Text(ExamplePackage().text)
+        Text("Hello", bundle: .module)
 #if os(iOS)
             .foregroundColor(Color(uiColor: .red))
 #endif
@@ -22,5 +22,6 @@ public struct ReusableView: View {
 struct ReusableView_Previews: PreviewProvider {
     static var previews: some View {
         ReusableView()
+            .environment(\.locale, .init(identifier: "de"))
     }
 }

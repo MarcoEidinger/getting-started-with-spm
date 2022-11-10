@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  ExampleApp
+
+  Created by Marco Eidinger on 11/9/22.
+  
+*/
+
+"Hello" = "Hello, World!";

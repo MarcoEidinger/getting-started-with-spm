@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "ExamplePackage",
+    defaultLocalization: "en",
     platforms: [.macOS(.v10_15), .iOS(.v13)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -22,7 +23,8 @@ let package = Package(
         .target(
             name: "ExamplePackageTarget",
             dependencies: [],
-            path: "Sources/ExamplePackage"
+            path: "Sources/ExamplePackage",
+            resources: [.process("Resources")]
         ),
         .testTarget(
             name: "ExamplePackageTests",
