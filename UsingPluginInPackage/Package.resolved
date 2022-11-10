@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftformatplugin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MarcoEidinger/SwiftFormatPlugin",
+      "state" : {
+        "revision" : "cc9614586ab73e7137959396885a13773d89f66e",
+        "version" : "0.50.3"
+      }
+    }
+  ],
+  "version" : 2
+}
